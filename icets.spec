@@ -30,7 +30,7 @@ edytowania pliku preferences.
 %patch1 -p1
 
 %build
-cp -f /usr/share/automake/config.* .
+cp -f /usr/share/automake/config.* admin
 %configure2_13
 %{__make}
 
