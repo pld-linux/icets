@@ -22,7 +22,7 @@ file preferences.
 
 %description -l pl
 To ma³e narzêdzie pozwala na zmianê motywu graficznego IceWM-a bez
-edytowania pliku preferences.
+edycji pliku preferences.
 
 %prep
 %setup -q -n %{name}-08
