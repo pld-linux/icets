@@ -6,6 +6,7 @@ Release:	3
 License:	GPL v2
 Group:		X11/Window Managers/Tools
 Source0:	http://www.selena.kherson.ua/xvadim/%{name}-%{version}.tar.bz2
+# Source0-md5:	93bde7e212c091759b0259c3c7fc08ad
 Source1:	%{name}.desktop
 Patch0:		%{name}-themes-path.patch
 Patch1:		%{name}-sigsegv.patch
