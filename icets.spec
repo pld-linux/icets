@@ -2,7 +2,7 @@ Summary:	Utility for changing IceWM's themes
 Summary(pl):	Narzêdzie zmieniaj±ce motyw graficzny IceWM-a
 Name:		icets
 Version:	0.8
-Release:	4
+Release:	5
 License:	GPL v2
 Group:		X11/Window Managers/Tools
 Source0:	http://www.selena.kherson.ua/xvadim/%{name}-%{version}.tar.bz2
