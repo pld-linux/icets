@@ -1,0 +1,13 @@
+diff -urN aaa/icets-08/icets/icets.cpp icets-08/icets/icets.cpp
+--- aaa/icets-08/icets/icets.cpp	Sat Feb  9 08:25:16 2002
++++ icets-08/icets/icets.cpp	Wed Feb  5 19:05:39 2003
+@@ -143,6 +143,9 @@
+     QDir dir(themeType[0] == 'g' ? globalDirName : localDirName);
+     QDir subDir;
+ 
++		if(!dir.exists())
++			return;
++
+     const QFileInfoList *list = dir.entryInfoList(QDir::Dirs);
+     QFileInfoListIterator it( *list );      // create list iterator
+     QFileInfo *fi;                          // pointer for traversing
