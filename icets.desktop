@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=icets
 Comment=Utility for changing IceWM's themes
-Comment[pl]=Narzêie do zmieniania tematóraficznych IceWM'a
+Comment[pl]=Narzędzie do zmieniania motywów graficznych IceWM'a
 Icon=icets.png
 Exec=icets
 Terminal=0
