@@ -1,7 +1,7 @@
 diff -urN aaa/icets-08/icets/icets.cpp icets-08/icets/icets.cpp
 --- aaa/icets-08/icets/icets.cpp	Sat Feb  9 08:25:16 2002
-+++ icets-08/icets/icets.cpp	Fri May  3 23:28:14 2002
-@@ -41,7 +41,7 @@
++++ icets-08/icets/icets.cpp	Wed Feb  5 19:17:52 2003
+@@ -41,13 +41,13 @@
  
  IcetsApp::IcetsApp():
  QMainWindow(),
@@ -10,3 +10,10 @@ diff -urN aaa/icets-08/icets/icets.cpp icets-08/icets/icets.cpp
                                   qApp->argv()[1]),
  localDirName(QDir::homeDirPath()),
  bigDescription(tr("This utility allows you to switch IceWM's theme.\n\n"
+                   "Using: icets [GlobalThemeDir]\n\n"
+                   "If GlobalThemeDir not specified\n"
+-                  "\'/usr/local/lib/X11/icewm/themes\'\nwill be used."
++                  "\'/usr/X11R6/lib/X11/icewm/themes\'\nwill be used."
+               )),
+ XBA(tr("Vadim A. Khohlov")),
+ icetsDescription(tr("IceWM themes' swithcer " VERSION))
