@@ -1,0 +1,12 @@
+diff -urN aaa/icets-08/icets/icets.cpp icets-08/icets/icets.cpp
+--- aaa/icets-08/icets/icets.cpp	Sat Feb  9 08:25:16 2002
++++ icets-08/icets/icets.cpp	Fri May  3 23:28:14 2002
+@@ -41,7 +41,7 @@
+ 
+ IcetsApp::IcetsApp():
+ QMainWindow(),
+-globalDirName(qApp->argc() < 2 ? "/usr/local/lib/X11/icewm/themes" :
++globalDirName(qApp->argc() < 2 ? "/usr/X11R6/lib/X11/icewm/themes" :
+                                  qApp->argv()[1]),
+ localDirName(QDir::homeDirPath()),
+ bigDescription(tr("This utility allows you to switch IceWM's theme.\n\n"
