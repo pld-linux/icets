@@ -10,8 +10,6 @@ Source1:	%{name}.desktop
 Patch0:		%{name}-themes-path.patch
 Patch1:		%{name}-sigsegv.patch
 URL:		http://www.selena.kherson.ua/xvadim/programse.html#icets
-BuildRequires:	autoconf
-BuildRequires:	automake
 BuildRequires:	qt-devel >= 3.0.5
 Requires:	icewm
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
