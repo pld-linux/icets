@@ -13,8 +13,6 @@ BuildRequires:	qt-devel >= 3.0.5
 Requires:	icewm
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 This small utility allows you to change IceWM's theme without editing
