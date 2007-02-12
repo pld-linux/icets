@@ -1,5 +1,5 @@
 Summary:	Utility for changing IceWM's themes
-Summary(pl):	Narzêdzie zmieniaj±ce motyw graficzny IceWM-a
+Summary(pl.UTF-8):   NarzÄ™dzie zmieniajÄ…ce motyw graficzny IceWM-a
 Name:		icets
 Version:	0.8
 Release:	6
@@ -20,8 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This small utility allows you to change IceWM's theme without editing
 file preferences.
 
-%description -l pl
-To ma³e narzêdzie pozwala na zmianê motywu graficznego IceWM-a bez
+%description -l pl.UTF-8
+To maÅ‚e narzÄ™dzie pozwala na zmianÄ™ motywu graficznego IceWM-a bez
 edycji pliku preferences.
 
 %prep
