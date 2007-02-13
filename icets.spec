@@ -1,5 +1,5 @@
 Summary:	Utility for changing IceWM's themes
-Summary(pl.UTF-8):   Narzędzie zmieniające motyw graficzny IceWM-a
+Summary(pl.UTF-8):	Narzędzie zmieniające motyw graficzny IceWM-a
 Name:		icets
 Version:	0.8
 Release:	6
